@@ -1,10 +1,72 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>App-ads Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Elite World AI - Our Apps</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, sans-serif; background: #f0f2f5; color: #333; margin: 0; padding: 40px 20px; display: flex; justify-content: center; }
+        .container { max-width: 500px; width: 100%; background: white; padding: 30px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.08); text-align: center; }
+        h1 { color: #1a1a1a; margin-bottom: 5px; font-size: 22px; letter-spacing: 0.5px; }
+        .subtitle { color: #6e6e73; font-size: 14px; margin-bottom: 30px; }
+        
+        .app-list { text-align: left; }
+        .app-card { background: #fff; border: 1px solid #eaeaea; border-radius: 15px; padding: 15px; margin-bottom: 12px; display: flex; align-items: center; transition: all 0.2s ease; cursor: default; }
+        .app-card:hover { transform: scale(1.02); border-color: #007aff; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+        
+        .app-icon { width: 55px; height: 55px; border-radius: 12px; margin-right: 15px; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 22px; flex-shrink: 0; }
+        .app-info { flex-grow: 1; }
+        .app-name { font-weight: 600; color: #1d1d1f; font-size: 17px; display: block; margin-bottom: 2px; }
+        .app-category { font-size: 12px; color: #86868b; text-transform: uppercase; letter-spacing: 0.5px; }
+
+        /* App Specific Colors */
+        .bg-fruit { background: linear-gradient(135deg, #ff4757, #ff6b81); }
+        .bg-word { background: linear-gradient(135deg, #ffa502, #eccc68); }
+        .bg-wedding { background: linear-gradient(135deg, #70a1ff, #1e90ff); }
+
+        .footer { margin-top: 35px; font-size: 12px; color: #bdc3c7; border-top: 1px solid #f2f2f2; padding-top: 20px; }
+        .hidden-link { display: none; }
+    </style>
 </head>
 <body>
-    <h1>App-ads.txt is live!</h1>
-    <p>Check the file here: <a href="app-ads.txt">app-ads.txt</a></p>
+
+<div class="container">
+    <h1>Technical Elite World AI</h1>
+    <div class="subtitle">Official App Portfolio</div>
+
+    <div class="app-list">
+        <div class="app-card">
+            <div class="app-icon bg-fruit">🍎</div>
+            <div class="app-info">
+                <span class="app-name">Fruit Slice Hero</span>
+                <span class="app-category">Arcade Game</span>
+            </div>
+        </div>
+
+        <div class="app-card">
+            <div class="app-icon bg-word">W</div>
+            <div class="app-info">
+                <span class="app-name">Word Connect</span>
+                <span class="app-category">Puzzle Game</span>
+            </div>
+        </div>
+
+        <div class="app-card">
+            <div class="app-icon bg-wedding">💍</div>
+            <div class="app-info">
+                <span class="app-name">Wedding Invitation Maker</span>
+                <span class="app-category">Graphics & Design</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        © 2026 Technical Elite World AI<br>
+        Professional App Solutions
+    </div>
+
+    <a href="app-ads.txt" class="hidden-link">Verification</a>
+</div>
+
 </body>
 </html>
